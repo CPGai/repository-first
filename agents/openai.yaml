@@ -1,0 +1,4 @@
+interface:
+  display_name: "Repository-First"
+  short_description: "Inicializa repos, releases y auditoría PR"
+  default_prompt: "Usa $repository-first para inicializar el repositorio post-planeación, publicar releases semánticos o auditar Issues y PRs."

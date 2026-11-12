@@ -1,0 +1,58 @@
+# ==========================================
+# Entorno, Secretos y Credenciales Locales
+# ==========================================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*credentials*.json
+*token*.json
+.agy_auth/
+
+# ==========================================
+# Python
+# ==========================================
+__pycache__/
+.venv/
+venv/
+.pytest_cache/
+*.pyc
+*.pyo
+*.pyd
+.mypy_cache/
+.ruff_cache/
+
+# ==========================================
+# Node.js / Frontend
+# ==========================================
+node_modules/
+dist/
+build/
+.next/
+npm-debug.log*
+
+# ==========================================
+# Bases de Datos Locales
+# ==========================================
+*.db
+*.sqlite
+*.sqlite3
+*.sqlite3-journal
+
+# ==========================================
+# Sistema Operativo e IDE
+# ==========================================
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# ==========================================
+# Carpetas de Datos Personales de la Usuaria
+# ==========================================
+user_data/
+private/
+uploads/
+logs/
